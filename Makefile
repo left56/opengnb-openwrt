@@ -34,7 +34,7 @@ OpenSource P2P Virtual Network
 endef
 
 define Build/Compile
-	(cd $(PKG_BUILD_DIR)/; cp -f makefile.openwrt Makefile)
+	(cd $(PKG_BUILD_DIR)/; cp -f Makefile.openwrt Makefile)
 	$(call Build/Compile/Default)
 endef
 
